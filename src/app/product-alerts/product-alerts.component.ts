@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Product } from '../products';
 
 @Component({
   selector: 'app-product-alerts',
@@ -10,4 +11,5 @@ import { CommonModule } from '@angular/common';
 })
 export class ProductAlertsComponent {
 
+  @Input() product: Product | undefined;
 }
