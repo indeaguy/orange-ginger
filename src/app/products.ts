@@ -8,21 +8,21 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'Bracelet',
+    price: 7999999,
+    description: 'A custom bracelet just for you'
   },
   {
     id: 2,
-    name: 'Phone Mini',
+    name: 'Necklace',
     price: 699,
     description: 'A great phone with one of the best cameras'
   },
   {
-    id: 3,
-    name: 'Phone Standard',
+    id: 4,
+    name: 'Beads',
     price: 299,
-    description: ''
+    description: 'Shiney'
   }
 ];
 
